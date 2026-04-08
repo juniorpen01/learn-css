@@ -1,0 +1,11 @@
+.card {
+    /* display: flex;
+    flex-direction: column; */
+    display: inline-block;
+    width: 25vw;
+    margin: 1vh 1vw;
+    padding: 2rem;
+    border-radius: 5%;
+    text-align: center;
+    background-color:hsl(0, 0%, 90%);
+}
