@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    /* damnnn */
+}
+
+#app {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    color: white;
+
+    background: #1e1e1e;
+}
+
+.btn {
+    /* margin: 1rem; */
+
+    border-radius: 5%;
+
+    /* border: .25rem solid white; */
+    padding: 1rem;
+
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+
+    background: red;
+}
