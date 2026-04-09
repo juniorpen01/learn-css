@@ -1,0 +1,17 @@
+.block {
+    display: block;
+    width: 50vw;
+    background-color: red;
+}
+
+.inline {
+    display: inline;
+    width: 50vw;
+    background-color: green;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 50vw;
+    background-color: blue;
+}
