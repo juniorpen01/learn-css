@@ -35,7 +35,9 @@ body {
 .tmp-container {
     width: 25vw;
     padding: 1rem;
-    border-radius: 5%;
+    border: 1rem solid yellow;
+    border-radius: 16rem; /* rem better than px */
+    margin: 1rem;
 
     font-size: 4rem;
     text-align: center;
