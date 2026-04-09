@@ -20,7 +20,7 @@ body {
 .btn {
     /* margin: 1rem; */
 
-    border-radius: 5%;
+    border-radius: 25%;
 
     /* border: .25rem solid white; */
     padding: 1rem;
@@ -30,4 +30,15 @@ body {
     color: white;
 
     background: red;
+}
+
+.tmp-container {
+    width: 25vw;
+    padding: 1rem;
+    border-radius: 5%;
+
+    font-size: 4rem;
+    text-align: center;
+
+    background: blue;
 }
