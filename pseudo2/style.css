@@ -16,17 +16,17 @@ body {
 
 .btn-group {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
     align-content: start;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 3rem;
 
+    box-sizing: border-box;
     width: 50%;
     height: 75%;
     border: .25rem solid white;
     border-radius: 2rem;
-    padding: 1rem;
+    padding: 4rem;
 
     background: hsl(100, 100%, 50%);
 }
@@ -34,10 +34,13 @@ body {
 .btn {
     --bg: hsl(200, 100%, 50%);
     --bg-hover: hsl(200, 100%, 70%);
+    --bg-active: hsl(200, 100%, 40%);
 
     flex-basis: 4rem;
     /* width: 4rem; */
 
+    box-sizing: border-box;
+    /* margin: 1rem; */
     border: .1rem solid black;
     border-radius: 1rem;
     padding: .5rem;
@@ -48,9 +51,18 @@ body {
     background: var(--bg);
 
     cursor: pointer;
-    transition: background;
+    transition: background .01s;
+    transition: content 1s;
 }
 
 .btn:hover {
     background: var(--bg-hover);
+}
+
+.btn:active {
+    background: var(--bg-active);
+}
+
+.btn:focus::before {
+    content: 'ahhh ur focusing on me!!: ';
 }
