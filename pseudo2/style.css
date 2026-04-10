@@ -16,10 +16,14 @@ body {
 
 .btn-group {
     display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    align-content: start;
     flex-wrap: wrap;
     gap: 1rem;
 
     width: 50%;
+    height: 75%;
     border: .25rem solid white;
     border-radius: 2rem;
     padding: 1rem;
