@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    color: white;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: #111;
+}
+
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    width: 50%;
+    border: .25rem solid white;
+    border-radius: 2rem;
+    padding: 1rem;
+
+    background: hsl(100, 100%, 50%);
+}
+
+.btn {
+    --bg: hsl(200, 100%, 50%);
+    --bg-hover: hsl(200, 100%, 70%);
+
+    flex-basis: 4rem;
+    /* width: 4rem; */
+
+    border: .1rem solid black;
+    border-radius: 1rem;
+    padding: .5rem;
+
+    font-weight: bold;
+    color: white;
+
+    background: var(--bg);
+
+    cursor: pointer;
+    transition: background;
+}
+
+.btn:hover {
+    background: var(--bg-hover);
+}
